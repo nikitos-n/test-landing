@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="./images/logo.svg" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+
+    <!-- inject:css -->
+    <link rel="stylesheet" href="css/style.min.css">
+    <!-- endinject -->
+
+    <script src="https://api-maps.yandex.ru/2.1/?apikey=ваш API-ключ&lang=ru_RU"></script>
+
+    <title>Никольский. Консалтинг и право</title>
+</head>
+
+<body>
+    <div class="header">
+        <div class="header__logo">
+            <img class="header__logo_icon" src="./images/logo.svg" alt="Logo" />
+        </div>
+
+        <nav class="navbar">
+            <div class="navbar__links">
+                <a class="navbar__links_title" href="#about">О нас</a>
+                <a class="navbar__links_title" href="#services">Услуги</a>
+                <a class="navbar__links_title" href="#consultation">Консультация</a>
+            </div>
+        </nav>
+        
+        <div class="phone">
+            <div class="phone__link">
+                <a class="phone__link_title" href="tel:+79319775883">+7 931 977 58 83</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="greeting">
+        <div class="greeting-section__text">
+            <div class="greeting-section__text_title">
+                <span>Взыскание дебиторской задолженности</span>
+            </div>
+        </div>
+
+        <div class="greeting-section__images">
+            <div class="greeting-section__slider">
+                <div class="greeting-section__slides">
+                  <input type="radio" name="radio-btn" id="radio1" />
+                  <input type="radio" name="radio-btn" id="radio2" />
+                  <input type="radio" name="radio-btn" id="radio3" />
+                  <input type="radio" name="radio-btn" id="radio4" />
+          
+                  <div class="slide__image first_image">
+                    <div class="slide__image_content">
+                        <span>Юридические услуги для бизнеса</span>
+                    </div>
+                  </div>
+          
+                  <div class="slide__image">
+                    <div class="slide__image_content">
+                        <span>Досудебное урегулирование споров, ведение переговоров</span>
+                    </div>
+                  </div>
+          
+                  <div class="slide__image">
+                    <div class="slide__image_content">
+                        <span>Консультация и полное сопровождение судебной процедуры, включая подготовку всех необходимых документов</span>
+                    </div>
+                  </div>
+          
+                  <div class="slide__image">
+                    <div class="slide__image_content">
+                        <span>Консультация и полное сопровождение на стадии исполнительного производства, а также в процедурах ликвидации и банкростства должника</span>
+                    </div>
+                  </div>
+                  
+                  <div class="slides-nav__auto">
+                    <div class="slides-nav__auto_b1"></div>
+                    <div class="slides-nav__auto_b2"></div>
+                    <div class="slides-nav__auto_b3"></div>
+                    <div class="slides-nav__auto_b4"></div>
+                  </div>
+                </div>
+          
+                <div class="slides-nav_m">
+                  <label for="radio1" class="m-btn"></label>
+                  <label for="radio2" class="m-btn"></label>
+                  <label for="radio3" class="m-btn"></label>
+                  <label for="radio4" class="m-btn"></label>
+                </div>
+            </div>            
+        </div>
+        
+        <div class="greeting-button_more">
+            <a href="#consultation" class="greeting-button_more_text">Получить бесплатную консультацию</a>
+        </div>
+    </div>
+
+    
+    <div class="about" id="about">
+        <div class="about-section__image">
+            <img src="./images/logo.svg" />
+        </div>
+
+        <div class="about-section__text">
+            <div class="about-section__text_title">
+                <span>О нас</span>
+                <div id="title_line"></div>
+            </div>
+
+            <div class="about-section__text_description">
+                <div id="experience-icon">
+                    <img src="./images/experience.png" />
+                </div>
+                <span>
+                    На рынке юридических услуг с 2000 года. Накопленный опыт и знания позволяют 
+                    успешно справляться с самыми сложными запросами. 
+                </span>
+            </div>
+            
+            <div class="about-section__text_description">
+                <div id="goal-icon">
+                    <img src="./images/goal.png" />
+                </div>
+                <span>
+                    Беремся за дела любой сложности,
+                    добиваясь максимальной эффективности. 
+                </span>
+            </div>
+            
+            <div class="about-section__text_description" id="confident-description">
+                <div id="confident-icon">
+                    <img src="./images/confident.png" />
+                </div>
+                <span>
+                    Гарантируем конфедициальность предоставленной клиентом информации. 
+                </span>
+            </div>
+        </div>
+    </div>
+
+    <div class="advantages" id="services">
+        <div class="advantages-section__text">
+            <div class="advantages-section__text_title">
+                <span>Услуги</span>
+                <div id="title_line"></div>
+            </div>
+        </div>
+
+        <div class="advantages-section__list">
+            <div class="advantages-section__item">
+                <div class="advantages-section__item_title">
+                    <span class="advantages-section__item_title_text">
+                        Досудебное урегулирование споров:
+                    </span>
+                </div>
+
+                <div class="advantages-section__item_plus closed">
+                    <div class="circle">
+                        <div class="horizontal"></div>
+                        <div class="vertical"></div>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="advantages-section__subtitle section__subtitle_close">
+                <ul>
+                    <li>
+                        <span class="advantages-section__subtitle_text">
+                            Ознакомление с документами и их анализ
+                        </span>
+                    </li>
+                    <li>
+                        <span class="advantages-section__subtitle_text">
+                            Предлагаемые пути решения возникшей конфликтной ситуации
+                        </span>
+                    </li>
+                    <li>
+                        <span class="advantages-section__subtitle_text">
+                            Участие в переговорах конфликтующих сторон
+                        </span>
+                    </li>
+                    <li>
+                        <span class="advantages-section__subtitle_text">
+                            Разработка и подготовка документов, необходимых на данном этапе
+                        </span>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="advantages-section__item">
+                <div class="advantages-section__item_title">
+                    <span class="advantages-section__item_title_text">
+                        Консультация и полное сопровождение судебной процедуры:
+                    </span>
+                </div>
+                
+                <div class="advantages-section__item_plus closed">
+                    <div class="circle">
+                        <div class="horizontal"></div>
+                        <div class="vertical"></div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="advantages-section__subtitle section__subtitle_close">
+                <ul>
+                    <li>
+                        <span class="advantages-section__subtitle_text">
+                            Ознакомление с документами и их анализ
+                        </span>
+                    </li>
+                    <li>
+                        <span class="advantages-section__subtitle_text">
+                            Составление всех необходимых судебных документов (исковых заявляний, 
+                            отзывов на исковые заялвения, заявление о выдачи определения о судбном 
+                            приказе (приказное производство), аппеляционные и касационные жалобы и отзывы на них)
+                        </span>
+                    </li>
+                    <li>
+                        <span class="advantages-section__subtitle_text">
+                            Сопровождение в судебной процедуре
+                        </span>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="advantages-section__item">
+                <div class="advantages-section__item_title">
+                    <span class="advantages-section__item_title_text">
+                        Консультация и полное сопровождние на стадии исполнительного производства:
+                    </span>
+                </div>
+                
+                <div class="advantages-section__item_plus closed">
+                    <div class="circle">
+                        <div class="horizontal"></div>
+                        <div class="vertical"></div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="advantages-section__subtitle section__subtitle_close">
+                <ul>
+                    <li>
+                        <span class="advantages-section__subtitle_text">
+                            Ознакомление с документами и их анализ
+                        </span>
+                    </li>
+                    <li>
+                        <span class="advantages-section__subtitle_text">
+                            Составление всех необходимых на этой стадии документов
+                        </span>
+                    </li>
+                    <li>
+                        <span class="advantages-section__subtitle_text">
+                            Представление интересов клиента в органах принудительного 
+                            исполнения (работа с судебными исполнителями, экспертными организациями и т.д.)
+                        </span>
+                    </li>
+                    <li>
+                        <span class="advantages-section__subtitle_text">
+                            Представление интересов клиента в правоохранительных органах 
+                            по вопросам, связанным с процедурой взыскания 
+                        </span>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="advantages-section__item">
+                <div class="advantages-section__item_title">
+                    <span class="advantages-section__item_title_text">
+                        Юридическое сопровождение бизнеса:
+                    </span>
+                </div>
+                
+                <div class="advantages-section__item_plus closed">
+                    <div class="circle">
+                        <div class="horizontal"></div>
+                        <div class="vertical"></div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="advantages-section__subtitle section__subtitle_close">
+                <ul>
+                    <li>
+                        <span class="advantages-section__subtitle_text">
+                            Юридическое сопровождение процедуры регистрации, реорганизации и ликвидации
+                            юридических лиц (индивидульных предпринимателей)
+                        </span>
+                    </li>
+                    <li>
+                        <span class="advantages-section__subtitle_text">
+                            Консультация и юридическое сопровождение в процедуре покупки и продаже компаний (бизнеса)
+                        </span>
+                    </li>
+                    <li>
+                        <span class="advantages-section__subtitle_text">
+                            Юридическая помощь в процедуре ликвидации, банкротства
+                        </span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    
+    <div class="consultation" id="consultation">
+        <div class="consultation-section">
+            <div class="consultation-section__title">
+                <span>Отправьте запрос на бесплатную консультацию</span>
+            </div>
+            <div class="consultation-section__description">
+                <span class="consultation-section__description_text">Или свяжитесь с нами по телефону</span>
+                <a class="consultation-section__description_tel" href="tel:+79319775883">+7 931 977 58 83</a>
+            </div>
+
+            <div class="consultation-section__form">
+                <form>
+                    <div id="text_input">
+                        <input type="email" name="email" placeholder="Ваша почта" />
+                        <span id="email-empty">Введите вашу почту</span>
+
+                        <input type="text" name="name" placeholder="Ваше имя" />
+                        <span id="name-empty">Введите ваше имя</span>
+                    </div>
+                    <div id="multitext-input">
+                        <textarea name="question" placeholder="Ваш вопрос"></textarea>
+                        <span id="question-empty">Введите ваш вопрос</span>
+                    </div>
+                    <input type="submit" value="Отправить" />
+                    <span id="question-success-hide">Ваш вопрос успешно отправлен</span>
+                    <span id="question-error-hide">Произошла ошибка при отправке письма</span>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <span class="footer-description">Copyright © 2024. All Right Reserved</span>
+    </div>
+
+    <!-- inject:js -->
+    <script src="scripts/bundle.min.js"></script>
+    <!-- endinject -->
+</body>
+
+</html>
